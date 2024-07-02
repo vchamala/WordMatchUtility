@@ -27,3 +27,9 @@ read the file line-by-line.
 Tests:
 Currently, I have not included unit tests in the initial revision, but tests would be advised and can add the tests if we would
 want them in scope.
+
+Sample Output:
+Predefined word     Match Count
+word111              1
+word1                1
+word2                2
