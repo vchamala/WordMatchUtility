@@ -22,11 +22,20 @@ Steps:
 2. Read the input file, and for each line, verify if there is a matched word. Use BufferedReader to read the file as we read the file line-by-line.
 (An English word does not contain a space in it, hence as we read each line in the input file, we check all words present in the line with the predefined set of Words for the match)
 
+Additional Utility: findMatchesIncludingSubStrings
+This utility finds If the word in the input file is exact match or is a sbstring for any of the predetermined words.
+
 Tests:
 Currently, I have not included unit tests in the initial revision, but tests would be advised and I can add the tests if we would want them in scope.
 
-Sample Output:
+Sample Output for exact match of words:
 Predefined word     Match Count
 word111              1
 word1                1
 word2                2
+
+Sample output for: If the word in file is exact match or is a sbstring for any of the predetermined words:
+Predefined word     Match Count
+word111              1
+word1                4
+word2                4
