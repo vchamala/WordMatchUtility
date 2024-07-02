@@ -23,8 +23,7 @@ Steps:
 (An English word does not contain a space in it, hence as we read each line in the input file, we check all words present in the line with the predefined set of Words for the match)
 
 Tests:
-Currently, I have not included unit tests in the initial revision, but tests would be advised and can add the tests if we would
-want them in scope.
+Currently, I have not included unit tests in the initial revision, but tests would be advised and I can add the tests if we would want them in scope.
 
 Sample Output:
 Predefined word     Match Count
