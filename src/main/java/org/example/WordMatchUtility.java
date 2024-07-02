@@ -56,7 +56,7 @@ public class WordMatchUtility {
             }
             return wordOccurencesMap;
         } catch (IOException ex) {
-            System.err.printf("IOException when processing predefined words: %s%n", ex.getMessage());
+            System.err.printf("IOException when finding matches: %s%n", ex.getMessage());
             throw ex;
         }
     }
