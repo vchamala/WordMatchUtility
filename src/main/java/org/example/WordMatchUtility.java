@@ -37,9 +37,6 @@ public class WordMatchUtility {
         } catch (IOException ex) {
             System.err.printf("IOException when processing predefined words: %s%n", ex.getMessage());
             throw ex;
-        } catch (Exception e) {
-            System.err.printf("Exception when processing predefined words: %s%n", e.getMessage());
-            throw e;
         }
         return predefinedWords;
     }
@@ -61,9 +58,6 @@ public class WordMatchUtility {
         } catch (IOException ex) {
             System.err.printf("IOException when processing predefined words: %s%n", ex.getMessage());
             throw ex;
-        } catch (Exception e) {
-            System.err.printf("Exception when processing predefined words: %s%n", e.getMessage());
-            throw e;
         }
     }
 
