@@ -12,7 +12,7 @@ Code:
 src/main/java/org/example/WordMatchUtility.java
 
 Command Line Run:
-java {ProjectLocationPath}/testProject/src/main/java/org/example/WordMatchUtility.java
+java {ProjectLocationPath}/src/main/java/org/example/WordMatchUtility.java
 
 Algorithm:
 As the input file could be up to 20mb, it is optimal to load all the predefined words into a Set as the first step, and
@@ -24,5 +24,5 @@ Steps:
 read the file line-by-line.
 
 Tests:
-I have not included unit tests in the initial revision, but tests would be advised and can add the tests if we would
+Currently, I have not included unit tests in the initial revision, but tests would be advised and can add the tests if we would
 want them in scope.
