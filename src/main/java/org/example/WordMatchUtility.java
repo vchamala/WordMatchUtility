@@ -17,8 +17,7 @@ public class WordMatchUtility {
         String predefinedWordsFile = "../../../resources/predefinedWords.txt"; // can be replaced by your local file for tests.
         Set<String> predefinedWords = util.readPredefinedWords(predefinedWordsFile);
 
-        /* 2. Go through each line of the file and find the matches and prints the word as we are looking to find only
-        the matches and pretty print the matched word and the occurrence count. */
+        /* 2. Go through each line of the file and find the matches and pretty prints the matched word and the occurrence count. */
         String inputFile = "../../../resources/inputFile.txt"; // can be replaced by your local file for tests.
         System.out.println("Predefined word     Match Count");
         for (Map.Entry<String, Integer> entry: util.findMatches(inputFile, predefinedWords).entrySet()) {
