@@ -22,6 +22,7 @@ Steps:
 (every word separated by a newline in the file.)
 2. Read the input file, and for each line, verify if there is a matched word. Use BufferedReader to read the file as we
 read the file line-by-line.
+(An English word does not contain a space in it, hence as we read each line in the input file, we check all words present in the line with the predefined set of Words for the match)
 
 Tests:
 Currently, I have not included unit tests in the initial revision, but tests would be advised and can add the tests if we would
