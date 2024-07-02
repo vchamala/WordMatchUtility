@@ -32,6 +32,9 @@ public class WordMatchUtility {
         }
     }
 
+    /*
+    The method reads the predetermined words provided in predterminedWords.txt input file.
+    */
     private Set<String> readPredefinedWords(String predefinedWordsFileName) throws IOException {
         Set<String> predefinedWords = new HashSet<>();
         try (BufferedReader br
@@ -47,6 +50,9 @@ public class WordMatchUtility {
         return predefinedWords;
     }
 
+    /*
+    The method finds the exact match of the words present in input file against the predetermined words.
+     */
     private Map<String, Integer> findMatches(String inputFileName, Set<String> predefinedWords) throws IOException {
         Map<String, Integer> wordOccurencesMap = new HashMap<>();
         try (BufferedReader br
