@@ -18,7 +18,7 @@ Algorithm:
 As the input file could be up to 20mb, it is optimal to load all the predefined words into a Set as the first step, and then while reading the input file, we check for the matching words.
 Steps:
 1. Load all the predefined words into a Set. Use BufferedReader to read the file, as this reads line-by-line of a file.
-(every word separated by a newline in the file.)
+(every word is separated by a newline in the file.)
 2. Read the input file, and for each line, verify if there is a matched word. Use BufferedReader to read the file as we read the file line-by-line.
 (An English word does not contain a space in it, hence as we read each line in the input file, we check all words present in the line with the predefined set of Words for the match)
 
